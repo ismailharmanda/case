@@ -1,8 +1,12 @@
 import React from "react";
+import "../styles/App.css"
+import FirstPage from "./FirstPage"
 
 const App = ()=>{
     return(
-    <div>App</div>
+    <div>
+        <FirstPage />
+    </div>
     )
 }
 
