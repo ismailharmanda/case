@@ -6,12 +6,14 @@ import Scroll from "./facilities/scroll";
 
 const FirstPageContent=()=>{
     return(
-        <div className="container-fluid">
+        <div className="container-fluid pb-5">
         <div className="d-flex  row jusstify-content-center">
             <div className="col-12 col-lg-6 mt-2">
                 <h1 className="mb-3" style={{fontWeight:"700", fontSize:"96px"}}>head of a <br /> newspaper <br /> story.</h1>
                 <HorizontalLine />
-                <p className="mt-5"
+                <p style={{
+                    fontSize:"18px"
+                }} className="mt-5"
                 
                 >What's a resume headline, and how can it help you showcase your credentials? A resume headline (also known as a resume title) is a brief phrase that highlights your value as a candidate</p>
                 <div className="mt-5 mb-3">
