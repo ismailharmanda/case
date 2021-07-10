@@ -4,7 +4,8 @@ import HeadlineIcon from "../images/HeadlineIcon";
 
 const SecondPage=()=>{
     return(
-        <div className="pt-5 mt-5" style={{background:"#BDD7FE"}}>
+        <div className="pt-5 mt-5 pb-5" style={{background:"#BDD7FE",
+        height:"1100px"}}>
             <div className="container mt-5 pt-5">
                 <div className="row d-flex justify-content-between">
                     <div className="col-12 col-md-6">

@@ -9,7 +9,7 @@ const MiddleContainer = ()=>{
             borderRadius:"10px",
             position:"absolute",
             left: "0",
-  right: "0", 
+            right: "0", 
   marginLeft: "auto", 
   marginRight: "auto"
             
