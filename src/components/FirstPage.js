@@ -1,16 +1,15 @@
 import React from "react";
-import FirstPageBox from "./FirstPageBox";
-import Layout from "./Layout"
+import Navbar from "./NavBar"
+import FirstPageContent from "./FirstPageContent";
+import Rectangle from "./facilities/rectangle";
 
 const FirstPage=()=>{
     return(
-        <div>
-        <Layout>
-        <FirstPageBox />
-        </Layout>
-        
-        </div>
+<div className="container">
+<Rectangle />
+<Navbar />
+<FirstPageContent />
+</div>
     )
 }
-
-export default FirstPage;
+export default FirstPage
