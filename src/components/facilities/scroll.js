@@ -3,7 +3,7 @@ import React from "react";
 const Scroll = ()=>{
     return(
         <div>
-        <div style={{
+        <div className="mb-4" style={{
 writingMode: "vertical-rl",
 textOrientation: "mixed",
 fontFamily:"Roboto",
@@ -22,7 +22,7 @@ textOrientation: "mixed",
 transform: "rotate(90deg)",
     width: "69px",
 height: "0px",
-border: "2px solid #0052CC",
+border: "2px solid",
 marginLeft:"-20px",
 color:"#0052CC",
 background:"#0052CC"

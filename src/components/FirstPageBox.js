@@ -4,7 +4,7 @@ import FirstPageContent from "./FirstPageContent";
 
 const FirstPageBox=()=>{
     return(
-<div className="">
+<div className="container">
 <Navbar />
 <FirstPageContent />
 </div>

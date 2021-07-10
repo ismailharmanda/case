@@ -2,11 +2,13 @@ import React from "react";
 import HorizontalLine from "./facilities/horizontalLine";
 import Button from "./facilities/button";
 import ImageCard from "./facilities/imageCard";
+import Scroll from "./facilities/scroll";
 
 const FirstPageContent=()=>{
     return(
-        <div className="d-flex container-fluid  row ">
-            <div className="col-6 mt-2">
+        <div className="container-fluid">
+        <div className="d-flex  row jusstify-content-center">
+            <div className="col-12 col-lg-6 mt-2">
                 <h1 className="mb-3" style={{fontWeight:"700", fontSize:"96px"}}>head of a <br /> newspaper <br /> story.</h1>
                 <HorizontalLine />
                 <p className="mt-5"
@@ -33,9 +35,13 @@ const FirstPageContent=()=>{
 
 
             </div>
-            <div className="col-6 mt-5">
+            <div className=" col-12 col-lg-6 mt-5">
                 <ImageCard />
             </div>
+        </div>
+        <div className="mt-5">
+        <Scroll />
+        </div>
         </div>
     )
 }
