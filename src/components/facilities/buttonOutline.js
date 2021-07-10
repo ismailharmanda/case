@@ -1,8 +1,8 @@
 import React from "react";
 
-const Button=(props)=>{
+const ButtonOutline=(props)=>{
     return(
-        <div className="d-inline mr-2">
+        <div className="d-inline mx-2 btn-outline">
             <button style={{
                 width:props.width, height:props.height, borderRadius:props.borderRadius, background:props.background,
                 color:props.color,
@@ -13,4 +13,4 @@ const Button=(props)=>{
 }
 
 
-export default Button;
+export default ButtonOutline;

@@ -8,7 +8,7 @@ const NavBar=()=>{
     return (
 <div className="roboto">
 <nav className="navbar navbar-light bg-white">
-<div className="container d-flex justify-content-between align-items-center">
+<div className="container-fluid p-0 m-0 d-flex justify-content-between align-items-center">
         <div className="pt-2">
             <a className="navbar-brand" href="/#">
       <Logo />

@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "./NavBar"
+import FirstPageContent from "./FirstPageContent";
 
 const FirstPageBox=()=>{
     return(
-<div>
+<div className="">
 <Navbar />
+<FirstPageContent />
 </div>
     )
 }
