@@ -6,6 +6,7 @@ import FirstPage from "./FirstPage";
 import ForthPage from "./ForthPage";
 import SecondPage from "./SecondPage";
 import ThirdPage from "./ThirdPage";
+import FifthPage from "./FifthPage";
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
       <MiddleImage />
       <ThirdPage />
       <ForthPage />
+      <FifthPage />
     </div>
   );
 };
