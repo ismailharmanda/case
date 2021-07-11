@@ -55,3 +55,10 @@ div {
 .text-muted > i {
   color: #4181e0;
 }
+
+.last-section-icon {
+  color: #a2badd;
+}
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}

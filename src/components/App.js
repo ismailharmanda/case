@@ -8,6 +8,7 @@ import SecondPage from "./SecondPage";
 import ThirdPage from "./ThirdPage";
 import FifthPage from "./FifthPage";
 import Footer from "./Footer";
+import LastSection from "./LastSection";
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
       <ForthPage />
       <FifthPage />
       <Footer />
+      <LastSection />
     </div>
   );
 };
