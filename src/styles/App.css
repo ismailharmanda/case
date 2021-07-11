@@ -1,21 +1,53 @@
 div {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .Rectangle {
-        position: absolute;
-        width: 672px;
-        height: 400px;
-        left: -2px;
-        top: 0px;
-        z-index: 1;
-      
-        /* Primary 20% */
-      
-        background: rgba(0, 82, 204, 0.2);
-        border-radius: 10px;
+  position: absolute;
+  width: 672px;
+  height: 400px;
+  left: -2px;
+  top: 0px;
+  z-index: 1;
+
+  /* Primary 20% */
+
+  background: rgba(0, 82, 204, 0.2);
+  border-radius: 10px;
 }
 .gray {
-    color: #5B6B88;
+  color: #5b6b88;
+}
 
+/* striked line */
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #42526e;
+}
+
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
 }
