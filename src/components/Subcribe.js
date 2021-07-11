@@ -7,9 +7,9 @@ const Subcribe = () => {
       style={{
         background: "rgba(0, 82, 204, 0.2)",
       }}
-      className="col-12 col-md-6 p-5 mt-5"
+      className="col-12 col-lg-6 p-5 mt-5"
     >
-      <div className="float-md-left p-5 mt-5 ml-5">
+      <div className="float-lg-left p-5 mt-5 ml-5">
         <h6
           className="mb-5"
           style={{
