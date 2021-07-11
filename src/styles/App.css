@@ -51,3 +51,7 @@ div {
   left: 100%;
   margin-left: 15px;
 }
+
+.text-muted > i {
+  color: #4181e0;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "./Carousel";
 
 const FifthPage = () => {
   return (
@@ -37,6 +38,7 @@ const FifthPage = () => {
         Ullamco id est eu ad culpa laborum. In sit est velit et nostrud ad
         officia <br /> officia ex aliqua elit.
       </p>
+      <Carousel />
     </div>
   );
 };
