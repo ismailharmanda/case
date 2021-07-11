@@ -2,7 +2,7 @@ import React from "react";
 
 const LastSection = () => {
   return (
-    <div className="container mt-5">
+    <div className="container my-5">
       <div className="d-flex justify-content-between">
         <div>
           <a
