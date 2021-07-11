@@ -59,6 +59,10 @@ div {
 .last-section-icon {
   color: #a2badd;
 }
+html,
 body {
   overflow-x: hidden; /* Hide scrollbars */
+}
+body {
+  position: relative;
 }
