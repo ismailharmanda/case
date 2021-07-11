@@ -1,18 +1,13 @@
 import React from "react";
 import JoinUs from "./JoinUs";
-
+import Subcribe from "./Subcribe";
 const ForthPage = () => {
   return (
-    <div
-      style={{
-        background: "#F5F5F5",
-      }}
-      className="container-fluid"
-    >
-      <div className="container">
+    <div className="container-fluid">
+      <div className="">
         <div className="row">
           <JoinUs />
-          <div className="col-6"></div>
+          <Subcribe />
         </div>
       </div>
     </div>
