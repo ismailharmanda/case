@@ -37,9 +37,31 @@ const Card = (props) => {
             </p>
             <p className="card-text">
               <small className="text-muted">
-                <i className="fab fa-facebook fa-2x m-2"></i>
-                <i className="fab fa-twitter fa-2x m-2"></i>
-                <i className="fab fa-instagram fa-2x m-2"></i>
+                <a
+                  href="/#"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  <i className="fab fa-facebook fa-2x m-2"></i>
+                </a>
+
+                <a
+                  href="/#"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  <i className="fab fa-twitter fa-2x m-2"></i>
+                </a>
+                <a
+                  href="/#"
+                  style={{
+                    textDecoration: "none",
+                  }}
+                >
+                  <i className="fab fa-instagram fa-2x m-2"></i>
+                </a>
               </small>
             </p>
           </div>
