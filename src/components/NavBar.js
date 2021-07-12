@@ -6,7 +6,7 @@ import Instagram from "../images/Instagram";
 import "../styles/Navbar.css";
 const NavBar = () => {
   return (
-    <div className="roboto">
+    <div className="totalnav roboto">
       <nav className="navbar navbar-light bg-white">
         <div className="container-fluid p-0 m-0 d-flex justify-content-between align-items-center">
           <div className="pt-2">

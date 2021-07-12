@@ -66,3 +66,8 @@ body {
 body {
   position: relative;
 }
+
+.Rectangle:hover {
+  z-index: -2;
+  display: none;
+}
