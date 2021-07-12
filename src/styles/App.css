@@ -4,8 +4,8 @@ div {
 }
 .Rectangle {
   position: absolute;
-  width: 672px;
-  height: 400px;
+  width: 36%;
+  height: 7.5%;
   left: -2px;
   top: 0px;
   z-index: 1;
